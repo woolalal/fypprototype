@@ -1,0 +1,317 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NavBar */
+#homepagenav
+{
+    padding: 2% 5%;
+    background-color: #FFF;
+}
+.logo
+{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 40%;
+}
+
+.img-logo
+{
+    width: 20%;
+    height: auto;
+}
+
+/* Client Homepage */
+#clienthomepage-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+#clienthomepage-container h4
+{
+    color: #FFF;
+}
+
+.feature-container
+{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature
+{
+    margin: 1rem 2rem;
+    padding: 5%;
+    background-color: #F5F5F5;
+}
+
+.feature h6
+{
+    margin: 1rem 0;
+}
+
+.feature a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.calendar-img
+{
+    width: 20%;
+}
+
+/* Footer Section */
+#footer
+{
+    background-color: #FFF;
+    text-align: center;
+    padding: 3%;
+}
+
+.foot
+{
+    margin-bottom: 4rem;
+}
+.foot h5
+{
+    font-weight: bold;
+}
+
+.foot li
+{
+    list-style: none;
+    padding: 0.2rem 0;
+}
+
+.foot a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.logos
+{
+    margin-top: 1rem;
+}
+
+.fab
+{
+    padding: 0.5rem;
+}
+
+.fab:hover
+{
+    transition: 0.5s;
+    color: black;
+    transform: scale(1.2);
+}
+
+.foot p
+{
+    margin: 0;
+}
+
+/* Edit Profile Page */
+#editprofile-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+}
+
+.editprofile
+{
+    background-color: #F5F5F5;
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+}
+
+.editprofile h5
+{
+    text-decoration: underline;
+}
+
+.editprofile p
+{
+    padding: 1rem 0;
+}
+
+.editprofile span
+{
+    margin: 0 1rem;
+}
+.user-img
+{
+    width: 15%;
+    margin: 1rem 0;
+}
+
+.back-btn
+{
+    margin-left: 10rem;
+}
+
+
+/* Appointments Page */
+#clientappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+}
+
+#clientappointment-container h4
+{
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 3rem;
+}
+
+.appointment-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.appointment
+{
+    background-color: #F5F5F5;
+    margin: 1rem;
+    padding: 5%;
+    text-align: center;
+    
+}
+
+.appointment a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.appointment h6
+{
+    margin: 1rem;
+}
+
+/* Make Appointment */
+#makeappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+
+}
+
+.makeappointment
+{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+}
+
+.makeappointment p
+{
+    margin: 2rem 0;
+}
+
+.makeappointment span
+{
+    margin-left: 0.5rem;
+    font-size: 13px;
+}
+
+/* Reschedule Appointment */
+#rescheduleappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+
+}
+
+#rescheduleappointment-container h5
+{
+    font-weight: bold;
+}
+
+.rescheduleappointment
+{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+}
+
+/* Cancel Appointment */
+#cancelappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+
+}
+
+#cancelappointment-container h5
+{
+    font-weight: bold;
+}
+
+.cancelappointment
+{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+}
+
+/* Past Appointments */
+#pastappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+
+}
+
+#pastappointment-container h5
+{
+    font-weight: bold;
+}
+
+.pastappointment
+{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+}
+
+/* Upcoming Appointments */
+#upcomingappointment-container
+{
+    background-color: #509492;
+    padding: 3% 5%;
+
+}
+
+#upcomingappointment-container h5
+{
+    font-weight: bold;
+}
+
+.upcomingappointment
+{
+    background-color: #F5F5F5;
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+}

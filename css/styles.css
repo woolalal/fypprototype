@@ -1,0 +1,186 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Navbar Section*/
+#navbar
+{
+    padding: 3% 10%;
+    background-color:#439899;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.navbar-brand span
+{
+    color: #FFF;
+}
+
+/*Introduction Section*/
+#introduction
+{
+    padding: 7% 15%;
+}
+
+.intro-text
+{
+    padding: 2rem 0;
+}
+.intro-text h2
+{
+    line-height: 1.5;
+}
+
+hr
+{
+    border: solid black;
+    border-bottom: none;
+    width: 10%;
+}
+.intro-text span
+{
+    font-weight: bold;
+}
+.heartbeat-img
+{
+    width: 60%;
+    text-align: center;
+    margin-left: 7rem;
+}
+
+/* About Us Section */
+#aboutus-text
+{
+    padding: 7% 15%;
+    background-color: #a7e7e8;
+}
+
+.health-img
+{
+    width: 75%;
+    margin-top: 1.5rem;
+}
+
+.aboutus-container h2
+{
+    font-weight: bold;
+    padding: 1rem 0 0.5rem;
+}
+
+
+/*Our Team Section*/
+#about-us
+{
+    background-color: FFF;
+    padding: 7% 1%;
+    text-align: center;
+    
+}
+
+#about-us h2
+{
+    font-weight: bold;
+}
+
+.about-container
+{
+    margin: 2rem 0;
+}
+.about-container p
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about-container h4
+{
+    font-weight: bold;
+    
+}
+
+.team-lead
+{
+    padding: 1rem 0 0;
+}
+
+.push-down
+{
+    padding: 1rem 0 0.5rem;
+}
+
+/*Documentation*/
+#documentation-section
+{
+    padding: 7% 10%;
+    background-color: #a7e7e8;
+   
+}
+
+#documentation-section h2
+{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.documentation
+{
+    margin: 2rem 0 0.5rem;
+}
+
+.documentation a
+{
+    text-decoration: none;
+}
+
+.documentation h5
+{
+    text-align: center;
+}
+
+.documentation ul
+{
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+
+/*Footer Section*/
+#footer
+{
+    padding: 5% 10%;
+    text-align: center;
+    
+    
+}
+
+.footer-icon
+{
+    color: black;
+    padding: 0.5rem 1.2rem 1rem;
+}
+
+.footer-icon:hover
+{
+    transition: 0.5s;
+    /* color: #FFF; */
+    transform: scale(1.1);
+}
+
+@media (max-width:1028px)
+{
+    .heartbeat-img
+    {
+        margin: 0 auto;
+    }
+
+    .documentation ul
+    {
+        margin: 0;
+    }
+}
